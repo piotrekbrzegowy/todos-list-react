@@ -1,5 +1,27 @@
 # Task list
 
+Hi everyone!
+This web page was created as part of the [YouCode](https://youcode.pl/frontend-developer-od-podstaw/) course.
+## Link to the web page
+
+Click here to see my todos-list: [todos-list-react](https://piotrekbrzegowy.github.io/todos-list-react/)
+
+## Description
+
+This is a simple to-do list application, which will help you to organize your daily tasks.
+
+
+## Used technologies
+
+- Javascript ES6+ features
+- BEM naming
+- Semantic HTML
+- React.js
+- Create-React-App
+- Babel
+- Webpack
+- CSS (Grid, Media queries)
+## About
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
