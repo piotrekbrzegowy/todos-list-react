@@ -14,7 +14,7 @@ This is a simple to-do list application, which will help you to organize your da
 ## Used technologies
 
 - Javascript ES6+ features
-- BEM naming
+- Styled-Components
 - Semantic HTML
 - React.js
 - Create-React-App
