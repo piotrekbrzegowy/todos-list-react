@@ -13,10 +13,8 @@ export const Header = styled.header`
     border-bottom: 1px solid #ddd;
 
     @media(max-width:767px) {
-        .section__header {
-            grid-template-columns: 1fr;
-        }
-    };
+        grid-template-columns: 1fr;
+    }
 `;
 
 export const Heading = styled.h2`

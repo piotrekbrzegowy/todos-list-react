@@ -6,9 +6,7 @@ export const StyledForm = styled.form`
     grid-gap: 20px;
 
     @media(max-width:767px) {
-        .form {
-            grid-template-columns: 1fr;
-        }
+        grid-template-columns: 1fr;
     }
 `;
 
