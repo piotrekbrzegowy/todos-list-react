@@ -1,31 +1,30 @@
-import "./style.css"
+import { List, Item, Content, Button } from "./styled";
 
 const Tasks = ({ tasks, hideDone, removeTask, toggleTaskDone }) => (
-    <ul className="tasks">
+    <List>
         {tasks.map(task => (
-            <li
+            <Item
                 key={task.id}
-                className={`tasks__item ${task.done && hideDone
-                    ? " tasks__item--hidden"
-                    : ""}`}
+                hidden={task.done && hideDone}
             >
-                <button
-                    className={`tasks__button tasks__button--toggleDone`}
+                <Button
+                    toggleDone
                     onClick={() => toggleTaskDone(task.id)}
                 >
                     {task.done ? "✔" : ""}
-                </button>
-                <span className={`tasks_content${task.done ? " tasks__content--done" : ""}`}>
+                </Button>
+                <Content done={task.done}>
                     {task.content}
-                </span>
-                <button
+                </Content>
+                <Button
                     onClick={() => removeTask(task.id)}
-                    className={`tasks__button tasks__button--remove`}>
+                    remove
+                >
                     🗑
-                </button>
-            </li>
+                </Button>
+            </Item>
         ))}
-    </ul>
+    </List>
 );
 
 export default Tasks;
