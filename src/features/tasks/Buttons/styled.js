@@ -2,11 +2,12 @@ import styled, { css } from "styled-components";
 
 export const Wrapper = styled.div`
     margin: 0 20px 0 0;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 20px;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
 
     @media(max-width:767px) {
+        display: grid;
         grid-template-columns: 1fr;
         margin: 0 20px 20px 20px;
     }
