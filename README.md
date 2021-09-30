@@ -17,10 +17,12 @@ This is a simple to-do list application, which will help you to organize your da
 - Styled-Components
 - Semantic HTML
 - React.js
+- Redux-Saga
+- React-Router
 - Create-React-App
 - Babel
 - Webpack
-- CSS (Grid, Media queries)
+- CSS (Grid, Flex, Media queries)
 ## About
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
