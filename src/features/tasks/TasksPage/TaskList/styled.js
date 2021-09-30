@@ -1,4 +1,15 @@
+import { NavLink } from "react-router-dom";
 import styled, { css } from "styled-components";
+
+export const StyledNavLink = styled(NavLink)`
+    color: teal;
+    text-decoration: none;
+
+    &:hover{
+        border-bottom: 1px solid;
+    }
+`;
+
 
 export const List = styled.ul`
     list-style: none;
@@ -8,6 +19,7 @@ export const List = styled.ul`
 `;
 
 export const Item = styled.li`
+    color:white;
     display: grid;
     grid-template-columns: auto 1fr auto;
     grid-gap: 10px;
