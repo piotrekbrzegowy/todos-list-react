@@ -1,7 +1,6 @@
 # Task list
 
 Hi everyone!
-This web page was created as part of the [YouCode](https://youcode.pl/frontend-developer-od-podstaw/) course.
 ## Link to the web page
 
 Click here to see my todos-list: [todos-list-react](https://piotrekbrzegowy.github.io/todos-list-react/)
