@@ -7,9 +7,9 @@ export default () => (
     <Container>
         <Header title="O autorze" />
         <Section
-            title="Cześć wszystkim!"
+            title="Cześć!"
             body={
-                <>Lista zadań została zrealizowana w ramach mojego kursu w youcode. - Piotrek Brzegowy</>
+                <>Wejdź na mój LinkedIn i dowiedz się o mnie trochę więcej: <a href="https://www.linkedin.com/in/piotrekbrzegowy/" target="_blank">LinkedIn</a></>
             }
         />
     </Container>
